@@ -19,3 +19,5 @@ $ git add "seu arquivo" (Esse comando ira adicionar o arquivo em especifico ao s
 $ git add \* (Esse comando ira adicionar todos os arquivos novos e/ou modificados ao repositorio);
 
 git commit
+
+Estudei ate aqui, agora to com preguiça, estudo mais amanha.
