@@ -29,13 +29,13 @@
   $ git config --global user.email "seu email" (Configura seu email de usuario)
 
 ### git init (Cria um repositorio novo em branco, apartir daqui sera possivel armazenar o codigo)
-  $ git init <Nome do Repositorio> (Cria um repositorio com um nome especifico)
+  $ git init "Nome do Repositorio" (Cria um repositorio com um nome especifico)
 
 ### git clone (Cria uma copia exata de um repositorio ja existente)
-  $ git clone <url do projeto> (Executa um **$ git init** internamente e verifica todo o conteudo do projeto)
+  $ git clone "url do projeto" (Executa um **$ git init** internamente e verifica todo o conteudo do projeto)
 
 ### git add (Adiciona arquivos especificados de codigo ao seu repositorio, sejam novos ou anteriores que foram editados, esse comando oferece difrentes possibilidades de sintaxe)
-  $ git add <seu arquivo> (Esse comando ira adicionar o arquivo em especifico ao seu repositorio)
+  $ git add "seu arquivo" (Esse comando ira adicionar o arquivo em especifico ao seu repositorio)
 
   $ git add * (Esse comando ira adicionar todos os arquivos novos e/ou modificados ao repositorio)
 
