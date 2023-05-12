@@ -7,9 +7,13 @@
 
   Da pra imaginar o Git como um palco junto dos bastidores, tudo que esta no palco pode ser enviado para o Github, ja oque esta nos bastidores deve ir para o palco para ser enviado usando o $ git add "arquivo", e logo depois usando o $ git commit -m "Comentario", assim oque esta agora no palco pode ser enviado para o Github atravez do comando $ git push.
   Exemplo:
+  
     $ git status (Aqui você pode ver qual arquivo foi modificado ou é novo para enviar pro palco.)
+
     $ git add "nome do arquivo" (Aqui você seleciona qual arquivo quer preparar para o palco.)
+
     $ git commit -m "Comentario" (Aqui os arquivos selecionados dos bastidores vão para o palco.)
+
     $ git push (Aqui tudo que estava ja no palco vai para o Github.)
 
 ## Comandos:
