@@ -18,10 +18,15 @@
 
 ## Comandos:
 Mostra a versão atual do Git:
+
     $ git --version
+
 Mostra o status do repositorio:
+
     $ git status
+
 Comando para renomear a branch, colocar novo nome entre aspas:
+
     $ git branch -m "Novo nome da branch"
 
 ### git config
