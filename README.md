@@ -17,28 +17,41 @@
     $ git push (Aqui tudo que estava ja no palco vai para o Github.)
 
 ## Comandos:
-  $ git --version (mostra a versão atual do Git)
-
-  $ git status (mostra o status do repositorio)
-
-  $ git branch -m "Novo nome da branch" (Comando para renomear a branch, colocar novo nome entre aspas)
+Mostra a versão atual do Git:
+    $ git --version
+Mostra o status do repositorio:
+    $ git status
+Comando para renomear a branch, colocar novo nome entre aspas:
+    $ git branch -m "Novo nome da branch"
 
 ### git config
-  $ git config --global user.name "seu nome" (Configura seu nome de usuario)
+Configura seu nome de usuario:
+    $ git config --global user.name "seu nome"
+Configura seu email de usuario:
+    $ git config --global user.email "seu email"
 
-  $ git config --global user.email "seu email" (Configura seu email de usuario)
+### git init
+Cria um repositorio novo em branco, apartir daqui sera possivel armazenar o codigo:
+    $ git init
+Cria um repositorio com um nome especifico:
+    $ git init "Nome do Repositorio"
 
-### git init (Cria um repositorio novo em branco, apartir daqui sera possivel armazenar o codigo)
-  $ git init "Nome do Repositorio" (Cria um repositorio com um nome especifico)
+### git clone
+Cria uma copia exata de um repositorio ja existente e executa um **$ git init** internamente e verifica todo o conteudo do projeto:
+    $ git clone "url do projeto"
 
-### git clone (Cria uma copia exata de um repositorio ja existente)
-  $ git clone "url do projeto" (Executa um **$ git init** internamente e verifica todo o conteudo do projeto)
-
-### git add (Adiciona arquivos especificados de codigo ao seu repositorio, sejam novos ou anteriores que foram editados, esse comando oferece difrentes possibilidades de sintaxe)
-  $ git add "seu arquivo" (Esse comando ira adicionar o arquivo em especifico ao seu repositorio)
-
-  $ git add * (Esse comando ira adicionar todos os arquivos novos e/ou modificados ao repositorio)
+### git add
+Adiciona arquivos especificados de codigo ao seu repositorio, sejam novos ou anteriores que foram editados, esse comando oferece difrentes possibilidades de sintaxe:
+-Esse comando ira adicionar o arquivo em especifico ao seu repositorio:
+    $ git add "seu arquivo"
+-Esse comando ira adicionar todos os arquivos novos e/ou modificados ao repositorio:
+    $ git add *
 
 ### git commit
+Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
+Se usa o commit depois de já ter feito o git add, para fazer o commit:
+    $ git commit -m "comentario"
+
+
 
 Estudei ate aqui, agora to com preguiça, estudo mais amanha.
