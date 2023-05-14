@@ -31,8 +31,10 @@ Comando para renomear a branch, colocar novo nome entre aspas:
 
 ### git config
 Configura seu nome de usuario:
+
     $ git config --global user.name "seu nome"
 Configura seu email de usuario:
+
     $ git config --global user.email "seu email"
 
 ### git init
