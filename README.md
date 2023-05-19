@@ -62,7 +62,27 @@ Para commitar também os arquivos versionados mesmo não estando no Stage basta 
 Refazendo commit quando esquecer de adicionar um arquivo no Stage:
 
     $ git commit -m "Comentario" --amend
+### git diff
+Mostra o que foi alterado no arquivo.
 
+    $ git diff
+### git log
+Traz o historico dos commits, com todas as informações de quem modificou e etc...
+
+    $ git log
+### git restore
+Pode remover as alterações que foram para a area de stage ou da area de Modified.
+
+    $ git restore --stage "Nome do arquivo"
+    $ gir restore "nome do arquivo"
+### git pull
+Esse comando vai puxar tudo que tem no repositorio remoto e faz um $ git merge para complementar o repositorio local.
+
+    $ git pull
+### git fetch
+Pode ser usado antes do $ git pull para puxar as modificações no repositorio remoto, mas não fazer um $ git merge, podendo ser usado para ver quais alterações seram feitas antes com o $ git diff.
+
+    $ git fetch
 
 
 Estudei ate aqui, agora to com preguiça, estudo mais amanha.
