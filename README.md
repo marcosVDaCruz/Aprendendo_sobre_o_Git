@@ -83,6 +83,21 @@ Esse comando vai puxar tudo que tem no repositorio remoto e faz um $ git merge p
 Pode ser usado antes do $ git pull para puxar as modificações no repositorio remoto, mas não fazer um $ git merge, podendo ser usado para ver quais alterações seram feitas antes com o $ git diff.
 
     $ git fetch
+### git branch e git checkout
+Ramificações do codigo principal (main/master), cria uma nova branch.
 
+    $ git branch "nome da nova branch"
+Para ir para a nova branch use:
+
+    $ git checkout "nome da branch"
+Para saber em qual branch você esta use:
+
+    $ git log --oneline --decorate
+    ou
+    $ git branch
+### git merge
+Usado quando queremos unir uma branch com outra ou com a main/master
+
+    $ git merge "nome da branch"
 
 Estudei ate aqui, agora to com preguiça, estudo mais amanha.

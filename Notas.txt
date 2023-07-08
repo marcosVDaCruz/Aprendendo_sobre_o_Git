@@ -1,0 +1,10 @@
+https://arxiv.org/abs/2304.03442v1
+
+Extenções interresantes:
+  GitLens
+
+Estados do Git:
+  Untracked
+  Unmodified
+  Modified
+  Staged
